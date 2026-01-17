@@ -50,8 +50,8 @@ Make sure MinGW is installed and added to PATH.
 Open Command Prompt in the project folder and run:
 
 ```bash
-gcc lms.c
-.\a.exe
+gcc lms.c -o lms.exe
+.\lms.exe
 ```
 Run the program and add sample books using the Add Book option.
 Data will persist automatically after exit.
@@ -76,6 +76,16 @@ Data will persist automatically after exit.
 
 ---
 
+## 📌 Table of Contents
+- Features
+- Technologies Used
+- Project Structure
+- How to Compile and Run
+- Data Persistence
+- Sample Operations
+- Future Enhancements
+- Author
+
 ## 📈 Future Enhancements
 
 - Pagination for large datasets
@@ -86,6 +96,21 @@ Data will persist automatically after exit.
 
 ---
 
+## 🖥️ Sample Output
+
+========= LIBRARY MANAGEMENT SYSTEM =========
+1) Add a Book
+2) View All Books
+3) Search Book by ID
+4) Search Book by Title
+5) Update Book
+6) Delete Book
+7) Sort Books
+8) Export to Text File
+0) Exit
+Enter choice:
+
+
 ## 👤 Author
 
 **Keshav Garg**
@@ -95,3 +120,4 @@ Data will persist automatically after exit.
 ## 📄 License
 
 This project is open for learning and educational purposes.
+
