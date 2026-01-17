@@ -103,6 +103,7 @@ void loadBooks()
 
     if (fp == NULL)
     {
+        printf("File error.\n");
         return;
     }
 
@@ -154,6 +155,7 @@ void saveBooks()
 
     if (fp == NULL)
     {
+        printf("File error.\n");
         return;
     }
 
@@ -166,6 +168,7 @@ void saveBooks()
     FILE *ft = fopen(Export_FILE, "w");
     if (ft == NULL)
     {
+        printf("File error(text/backup file).\n");
         return;
     }
 
@@ -505,3 +508,4 @@ void sortAuthor()
         }
     }
 }
+
